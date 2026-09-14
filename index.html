@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PLAYER - Plataforma Lógica de Análisis y Referencias</title>
+    <link rel="icon" type="image/jpeg" href="MASCOTA-1.jpeg">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- NAVEGACIÓN -->
+    <nav class="navbar">
+        <div class="logo">🎧 PLAYER</div>
+        <ul class="nav-links">
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#caracteristicas">Características</a></li>
+            <li><a href="#flujo">Flujo de Trabajo</a></li>
+            <li><a href="#roles">Seguridad</a></li>
+        </ul>
+        <a href="#demo" class="btn-cyan">Probar Plataforma</a>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <header id="inicio" class="hero">
+        <div class="hero-content">
+            <span class="badge">Inteligencia Documental + OCR</span>
+            <h1>Plataforma Lógica de Análisis y Referencias</h1>
+            <p>Estructura, analiza y conecta miles de documentos mediante procesamiento OCR avanzado y mapas interactivos de conocimiento.</p>
+            <div class="hero-buttons">
+                <a href="#caracteristicas" class="btn-cyan">Explorar Funciones</a>
+                <a href="#flujo" class="btn-outline">Ver Flujo</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- CARACTERÍSTICAS -->
+    <section id="caracteristicas" class="section">
+        <h2 class="section-title">Características Principales</h2>
+        <div class="grid-cards">
+            <div class="card">
+                <div class="card-icon">📥</div>
+                <h3>Ingesta Multi-formato</h3>
+                <p>Soporte para archivos PDF, imágenes (PNG, JPG) y documentos de texto con procesamiento automatizado.</p>
+            </div>
+            <div class="card">
+                <div class="card-icon">⚡</div>
+                <h3>Extracción OCR Lógica</h3>
+                <p>Lector inteligente de caracteres para extraer texto y clasificar el contenido en la bóveda de datos.</p>
+            </div>
+            <div class="card">
+                <div class="card-icon">🌐</div>
+                <h3>Mapa de Conocimiento</h3>
+                <p>Red interactiva de conceptos que vincula palabras clave y entidades entre distintos documentos.</p>
+            </div>
+            <div class="card">
+                <div class="card-icon">🔐</div>
+                <h3>Seguridad & Roles</h3>
+                <p>Control de acceso basado en roles (RBAC) para proteger la edición y borrado de archivos.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- FLUJO DE TRABAJO -->
+    <section id="flujo" class="section bg-darker">
+        <h2 class="section-title">Flujo de Trabajo del Sistema</h2>
+        <div class="stepper-container">
+            <div class="step-item">
+                <div class="step-number">1</div>
+                <h4>Ingesta y Bóveda</h4>
+                <p>Carga de archivos y almacenamiento centralizado con metadatos procesados.</p>
+            </div>
+            <div class="step-item">
+                <div class="step-number">2</div>
+                <h4>Análisis y Clasificación</h4>
+                <p>Extracción de contenido relevante y etiquetado automático por categorías.</p>
+            </div>
+            <div class="step-item">
+                <div class="step-number">3</div>
+                <h4>Red de Conceptos</h4>
+                <p>Generación de grafos dinámicos para visualización global de la información.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ROLES Y PERMISOS -->
+    <section id="roles" class="section">
+        <h2 class="section-title">Modelo de Permisos y Administración</h2>
+        <div class="grid-two">
+            <div class="card card-glow">
+                <h3>👤 Usuario Estándar</h3>
+                <ul>
+                    <li>✅ Subir y visualizar documentos globales.</li>
+                    <li>✅ Explorar la red interactiva de conceptos.</li>
+                    <li>✅ Editar y eliminar solo **sus propios documentos**.</li>
+                    <li>❌ Sin acceso a eliminación de archivos de terceros.</li>
+                </ul>
+            </div>
+            <div class="card card-red">
+                <h3>⚙️ Administrador</h3>
+                <ul>
+                    <li>✅ Control total CRUD sobre la bóveda.</li>
+                    <li>✅ Gestión de usuarios (Crear, Editar, Eliminar).</li>
+                    <li>✅ Borrado masivo y auditoría de archivos.</li>
+                    <li>✅ Asignación de roles y privilegios de sistema.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <p>&copy; 2026 PLAYER System. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
